@@ -1,8 +1,8 @@
 "use strict"
 
 function compareArrays(arr1, arr2) {
-    return arr1.every(function (el,index) {
-        if(arr1.length === arr2.length){
+    return arr1.every(function (el, index) {
+        if (arr1.length === arr2.length) {
             return el === arr2[index];
         }
         return false;
